@@ -1,6 +1,6 @@
 import React from 'react';
 import UserItem from "./UserItem.css";
-import Avatar from "../../shared/components/UIElements/Avatar.jsx";
+import Avatar from "../../shared/Component/UIElements/Avatar"
 
 const UsersItem = (props) => {
     return (
