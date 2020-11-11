@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import "./MainNavigation.css";
 import MainHeader from "./MainHeader";
+import NavLinks from "./NavLinks";
 
 
 export default function MainNavigation(props) {
@@ -18,7 +19,7 @@ export default function MainNavigation(props) {
               </Link>
           </h1>
           <nav>
-              ...
+              <NavLinks/>
           </nav>
       </MainHeader>
     )
