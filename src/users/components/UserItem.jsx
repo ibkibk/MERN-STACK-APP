@@ -1,5 +1,5 @@
 import React from 'react'
-import UserItem from "./UsersItem.css"
+import UserItem from "./UserItem.css"
 
 const UsersItem = () => {
     return (

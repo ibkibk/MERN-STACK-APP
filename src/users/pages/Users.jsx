@@ -1,9 +1,12 @@
 import React from 'react'
+import UserList from "../components/UsersList"
 
-export default function Users() {
+
+const Users=() =>{
+
+    const USERS =[{id:"u1",name:"ibrahim kurhan",image:"https://www.pexels.com/photo/graceful-goose-with-striped-plumage-on-embankment-4558715/",image:3}];
     return (
-        <div>
-            <h2>New Users</h2>
-        </div>
+        <UserList items={USERS}/>
     )
 }
+export default  Users;
