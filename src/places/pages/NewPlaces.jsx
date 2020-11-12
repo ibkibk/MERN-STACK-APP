@@ -1,5 +1,5 @@
 import React , { useCallback, useReducer } from 'react'
-import "./NewPlaces.css"
+import "./PlaceForm.css"
 import Button from "../../shared/Component/FormElement/Button"
 import Input from "../../shared/Component/FormElement/Input"
 import { VALIDATOR_REQUIRE,VALIDATOR_MINLENGTH } from "../../shared/util/validators"
@@ -35,6 +35,10 @@ const NewPlace = () => {
         isValid: false
       },
       description: {
+        value: '',
+        isValid: false
+      },
+      address: {
         value: '',
         isValid: false
       }
